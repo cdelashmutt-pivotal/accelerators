@@ -1,0 +1,11 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: augment-existing-project
+  namespace: accelerator-system
+spec:
+  git:
+    url: https://github.com/cdelashmutt-pivotal/accelerators
+    subPath: augment-existing-project
+    ref:
+      branch: main
